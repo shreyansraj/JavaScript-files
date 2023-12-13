@@ -1,0 +1,16 @@
+* try & catch
+* arrow functions
+const func = (arg1, arg2..)=>{function definition}
+eg, const sum=(a,b)=>{
+    console.log(a+b);
+};
+Implicit return
+
+const function=(arg1, arg2)=>{value}
+const multiply=(a,b)=>{
+    a*b
+};
+
+*set Timeout
+*set Interval
+

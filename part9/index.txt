@@ -1,0 +1,22 @@
+selecting elements
+
+document.getElementById(id_name);
+
+document.getElementById("description");
+                ------------------
+document.getElementsByClassName("class_name");
+
+document.getElementsByTagName("p");
+---------------------------------------
+
+Query Selectors;
+
+select single elements;
+
+document.querySelector('p'); 
+document.querySelector('#id');
+document.querySelector('.class');
+
+document.querySelectorAll('.class');
+
+
