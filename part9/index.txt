@@ -1,4 +1,4 @@
-selecting elements
+*selecting elements
 
 document.getElementById(id_name);
 
@@ -9,7 +9,7 @@ document.getElementsByClassName("class_name");
 document.getElementsByTagName("p");
 ---------------------------------------
 
-Query Selectors;
+Query Selectors; Just like in CSS we can all these selector 
 
 select single elements;
 
@@ -18,5 +18,12 @@ document.querySelector('#id');
 document.querySelector('.class');
 
 document.querySelectorAll('.class');
+
+* Using properties and methods
+ 1. inner text: shows the visible text contained in a node
+ 2. textContent: shows all the full text means the text whose visibility is none will also show
+ 3. innerHTML: shows the full markup
+
+
 
 

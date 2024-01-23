@@ -1,0 +1,11 @@
+DOM(Document object Model): The DOM represents a document with a logical tree.
+It allows us to manipulate /change webpage content (HTML elements).
+
+* "document" is a object in javaScript which we use to modify HTML & CSS file from javaScript.
+
+* manipulating Attributes
+ obj.getAttribute(attr);
+ obj.setAttribute(attr, val);
+ generally called getter and setAttribute
+
+ 
