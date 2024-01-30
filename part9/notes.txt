@@ -8,4 +8,35 @@ It allows us to manipulate /change webpage content (HTML elements).
  obj.setAttribute(attr, val);
  generally called getter and setAttribute
 
+ * manipulating style
+ style peoperty  :  obj.style
+
+ using classList
+ obj.classList
+
+ classList.add() to add new classes
+ classList.remove() to remove classes
+ classList.contains() to check if class exist
+ classList.toggle() to toggle between add and remove
+
+ * Navigation
+ - parentElement
+ - children
+ - previousElementSibling/nextElementSibling
+
+
+*Adding elements: document.createElement('p');
+    - appendChild(element);
+    - append(element); last addition
+    - prepend(element); first addition
+    - insertAdjacent(where, element);
+        *beforebegin
+        *afterbegin
+        *beforeend
+        *afterend
+
+*Removing elements
+ - removeChild(element);
+ - remove(element);
+
  
