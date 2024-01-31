@@ -1,0 +1,11 @@
+* DOM Events: Events are signals that something has occured.
+    Onclick(when an element is clicked)
+    onmouseenter(when mouse enters an element)
+
+Note: We can't perform multiple things on a single click on a button
+ here comes the role of Evet Listener.
+
+* Event Listener: addEventListener
+    element.addEventListener(event, callback);
+
+    
