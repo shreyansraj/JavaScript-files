@@ -1,0 +1,24 @@
+* Event Bubbling: 
+  - Purpose: Event bubbling is a phase during event propagation where the event starts from the target element and moves up through its ancestors in the DOM hierarchy. 
+             This is the default behavior for most events in the DOM.
+
+* Event Delegation: 
+  - Purpose: Event delegation is a concept where a single event listener is used to manage multiple similar elements efficiently. 
+             This is achieved by attaching the event listener to a common ancestor of the elements and checking the target of the event to determine which 
+             specific element triggered the event.
+
+* DOM Manipulation: 
+  - Purpose: Manipulating the Document Object Model (DOM) involves dynamically creating, modifying, or deleting HTML elements in response to user interactions. 
+             In this TODO app, it's used to create new list items and delete existing ones.
+
+* Input Handling: 
+  - Purpose: Managing user input is crucial for tasks like adding new items to the TODO list. The JavaScript code retrieves and clears the input value 
+             after adding a task to ensure a smooth user experience.
+
+* Dynamic Element Creation: 
+  - Purpose: Dynamically creating HTML elements, such as list items and buttons, allows the TODO app to generate content on-the-fly based on user input.
+
+* Event Handling: 
+  - Purpose: Event handling is employed to respond to user interactions, such as clicking the "Add Task" button or clicking the delete button on a task. 
+             Event listeners are set up to execute specific actions in response to these events.
+

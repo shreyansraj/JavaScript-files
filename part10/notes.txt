@@ -8,4 +8,8 @@ Note: We can't perform multiple things on a single click on a button
 * Event Listener: addEventListener
     element.addEventListener(event, callback);
 
-    
+*  this in Event Listeners: When 'this' is used in a callback of event handler of something, it refers to that something.
+
+* Keyboard Events
+
+* Form Events
